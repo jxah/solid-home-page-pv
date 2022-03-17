@@ -6,6 +6,7 @@ a = random.randrange(1,10)
 
 responses = ["Genius!", "Magnificent!", "Impressive!", "Splendid!", "Great!", "Phew!", string(a)]
 i=0
+#this is for counting times you have guessed
 
 while True:
   guess = input("Guess my number, which is a number from 1 to 10:")
