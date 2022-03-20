@@ -4,7 +4,7 @@ import random
 # a is my random number
 a = random.randrange(1,10)
 
-responses = ["Genius!", "Magnificent!", "Impressive!", "Splendid!", "Great!", "Phew!", string(a)]
+responses = ["Genius!", "Magnificent!", "Impressive!", "Splendid!", "Great!", "Phew!", str(a)]
 i=0
 #this is for counting times you have guessed
 
@@ -16,5 +16,5 @@ while True:
     print(responses[i])
     break
   else: 
-    i = i+i
+    i = i+1
   pass
