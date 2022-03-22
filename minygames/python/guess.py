@@ -14,7 +14,8 @@ while True:
     int(guess)
   except:
     continue
-    
+    if guess > 10:
+      continue
   correct = (a == int(guess))
   strikeout = (i == 6)
   if correct or strikeout: 
